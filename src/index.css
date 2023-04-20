@@ -1,0 +1,60 @@
+@import-normalize; /*bring in normalize.css styles */
+@import url('./stylesheets/fonts/fonts.css');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope-Medium', sans-serif;
+  background-color: #766A92;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.NotScroll {
+  overflow: hidden;
+}
+
+.container {
+  width: 1640px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

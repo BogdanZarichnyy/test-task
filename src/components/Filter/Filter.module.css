@@ -1,0 +1,43 @@
+.filter {
+    display: block;
+    margin-top: 50px;
+
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    font-family: 'Montserrat-SemiBold';
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    font-size: 32px;
+    text-shadow: 4px 4px 4px 8px black;
+    background-color: #1F1F1F;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+
+    transition-property: box-shadow text-shadow;
+    transition-duration: 250ms;
+    transition-timing-function:
+        cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter:focus,
+.filter:hover {
+    box-shadow:
+        0px 3px 1px white,
+        0px 1px 2px white,
+        0px 2px 2px white;
+}
+
+.filter:active {
+    box-shadow:
+        inset 4px 4px 4px white,
+        inset -4px 4px 4px white,
+        inset 4px -4px 4px white,
+        inset -4px -4px 4px white;
+}
